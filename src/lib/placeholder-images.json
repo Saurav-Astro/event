@@ -1,0 +1,64 @@
+{
+  "placeholderImages": [
+    {
+      "id": "event1",
+      "description": "Cosmic Code Clash event banner",
+      "imageUrl": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzcGFjZSUyMGdhbGF4eXxlbnwwfHx8fDE3NjYzOTY1NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "space galaxy"
+    },
+    {
+      "id": "event2",
+      "description": "AI Mastery Workshop event banner",
+      "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxBSSUyMHJvYm90fGVufDB8fHx8MTc2NjM1OTc1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI robot"
+    },
+    {
+      "id": "event3",
+      "description": "DevOps Decoded conference banner",
+      "imageUrl": "https://images.unsplash.com/photo-1701099153587-6f28b448ff0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzZXJ2ZXIlMjBjb2RlfGVufDB8fHx8MTc2NjQ0ODEzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "server code"
+    },
+    {
+      "id": "event4",
+      "description": "Blockchain Builders Brawl banner",
+      "imageUrl": "https://images.unsplash.com/photo-1631864032970-68d79f6b7158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxibG9ja2NoYWluJTIwbmV0d29ya3xlbnwwfHx8fDE3NjYzNjEzODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blockchain network"
+    },
+    {
+      "id": "sponsor1",
+      "description": "Tech Innovators logo",
+      "imageUrl": "https://images.unsplash.com/photo-1760037028517-e5cc6e3ebd3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWNoJTIwbG9nb3xlbnwwfHx8fDE3NjYzNjk2MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech logo"
+    },
+    {
+      "id": "sponsor2",
+      "description": "Cloud Nexus logo",
+      "imageUrl": "https://images.unsplash.com/photo-1692372374563-9ab54f303b7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjbG91ZCUyMGxvZ298ZW58MHx8fHwxNzY2NDI0NzY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cloud logo"
+    },
+    {
+      "id": "sponsor3",
+      "description": "Data Driven Inc. logo",
+      "imageUrl": "https://images.unsplash.com/photo-1583474884909-230dac058b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXRhJTIwbG9nb3xlbnwwfHx8fDE3NjYzNTMyNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data logo"
+    },
+    {
+      "id": "sponsor4",
+      "description": "Secure Solutions logo",
+      "imageUrl": "https://images.unsplash.com/photo-1701500096456-28186c4a306d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzZWN1cml0eSUyMGxvZ298ZW58MHx8fHwxNzY2MzUzMjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "security logo"
+    },
+    {
+      "id": "sponsor5",
+      "description": "Quantum Leap logo",
+      "imageUrl": "https://images.unsplash.com/photo-1761624159387-5f9d883b4415?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxxdWFudHVtJTIwbG9nb3xlbnwwfHx8fDE3NjY0MTI0ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quantum logo"
+    },
+    {
+      "id": "sponsor6",
+      "description": "Future Forward logo",
+      "imageUrl": "https://images.unsplash.com/photo-1571872580445-2b2e9c581a5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZnV0dXJlJTIwbG9nb3xlbnwwfHx8fDE3NjY0NDgxMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "future logo"
+    }
+  ]
+}
