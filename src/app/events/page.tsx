@@ -100,7 +100,7 @@ export default function EventsPage() {
                 </CardContent>
                </GlassCard>
                  <Button size="lg" className="w-full" asChild>
-                    <Link href={`/events/${hackathon.id}`}>Register for CodeQuest</Link>
+                    <Link href="/">Register for CodeQuest</Link>
                 </Button>
             </div>
           </div>

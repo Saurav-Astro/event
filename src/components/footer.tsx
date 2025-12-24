@@ -54,12 +54,12 @@ export function Footer() {
 
 			<div className="grid w-full gap-8 xl:grid-cols-3 xl:gap-8">
 				<AnimatedContainer className="space-y-4">
-                    <Link href="/" className="flex items-center space-x-2">
+					<Link href="/" className="flex items-center space-x-2">
                         <Code2 className="h-8 w-8 text-accent" />
-                        <p className="text-xl font-bold">IGNITE 2026</p>
+						<p className="text-xl font-bold">Spectrum 2026</p>
                     </Link>
 					<p className="text-muted-foreground mt-4 text-sm">
-						© {new Date().getFullYear()} IGNITE, Inc. All rights reserved.
+						© {new Date().getFullYear()} Spectrum, Inc. All rights reserved.
 					</p>
 				</AnimatedContainer>
 

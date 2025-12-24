@@ -5,8 +5,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Calendar, MapPin, Award, Scale, Users, Trophy, Ticket } from 'lucide-react';
-import { RegistrationForm } from '@/components/registration-form';
+import { Calendar, MapPin, Award, Scale, Users, Trophy } from 'lucide-react';
+// Registration form temporarily disabled; Google Form link coming soon
 import { cn } from '@/lib/utils';
 
 type Props = {
@@ -61,16 +61,6 @@ export default async function EventDetailPage({ params }: Props) {
           </div>
         </div>
         <div className="flex flex-col space-y-8">
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2"><Ticket className="h-6 w-6 text-accent" /> Register Now</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground mb-4">Secure your spot for {event.title}!</p>
-              <RegistrationForm eventName={event.title} />
-            </CardContent>
-          </Card>
-          
           {(hasDetails || hasSpeakers) && (
             <Tabs defaultValue={hasDetails ? 'details' : (hasSpeakers ? 'speakers' : '')} className="w-full">
               <TabsList className={cn("grid w-full", (hasDetails && hasSpeakers) ? 'grid-cols-2' : 'grid-cols-1')}>

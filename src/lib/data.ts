@@ -83,7 +83,7 @@ export const events: Event[] = [
     title: 'CodeQuest: 36 Hours of Non-Stop Innovation',
     date: 'Mar 15-17, 2026',
     location: 'Main Auditorium',
-    description: 'The flagship hackathon of IGNITE 2025. Choose a track and build something amazing.',
+    description: 'The flagship hackathon of Spectrum 2026. Choose a track and build something amazing.',
     image: 'event1', // Re-using image
     details: {
       tracks: [

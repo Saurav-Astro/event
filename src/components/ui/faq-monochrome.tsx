@@ -275,7 +275,7 @@ export function FaqMonochrome({ items }: { items: FAQItem[] }) {
         >
           <span className="faq1-intro__beam" aria-hidden="true" />
           <span className="faq1-intro__pulse" aria-hidden="true" />
-          <span className="faq1-intro__label">Funk FAQ</span>
+          <span className="faq1-intro__label">Spectrum FAQ</span>
           <span className="faq1-intro__meter" aria-hidden="true" />
           <span className="faq1-intro__tick" aria-hidden="true" />
         </div>

@@ -6,9 +6,10 @@ import { Toaster } from "@/components/ui/toaster";
 import { cn } from '@/lib/utils';
 import AuroraCanvas from '@/components/ui/ambient-aurora';
 import { CursorSpotlight } from '@/components/ui/cursor-spotlight';
+import { BackgroundAudio } from '@/components/background-audio';
 
 export const metadata: Metadata = {
-  title: 'Funk - College Tech Fest',
+  title: 'Spectrum 2026 - College Tech Fest',
   description: 'The official hub for our annual college tech fest, featuring hackathons, workshops, and more.',
 };
 
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className={cn("font-body antialiased min-h-screen flex flex-col bg-background")}>
         <CursorSpotlight />
         <AuroraCanvas />
+        <BackgroundAudio />
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />

@@ -38,7 +38,7 @@ export function Header() {
         <nav className="flex items-center justify-between p-1.5">
           <Link href="/" className="hover:bg-accent flex cursor-pointer items-center gap-2 rounded-md px-2 py-1 duration-100">
             <Grid2x2Plus className="size-5 text-accent" />
-            <p className="font-mono text-base font-bold">IGNITE 2026</p>
+            <p className="font-mono text-base font-bold">Spectrum 2026</p>
           </Link>
           <div className="hidden items-center gap-1 lg:flex">
             {navLinks.map((link) => (
@@ -57,7 +57,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-2">
             <Button size="sm" asChild>
-              <Link href="/events">Register Now</Link>
+              <Link href="/">Register Now</Link>
             </Button>
             <Sheet open={open} onOpenChange={setOpen}>
               <Button

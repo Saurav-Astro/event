@@ -90,7 +90,7 @@ function HeroSection() {
     setMounted(true);
   }, []);
 
-  const title = "IGNITE 2026";
+  const title = "Spectrum 2026";
   const tagline = "Innovate. Integrate. Ignite.";
 
   return (
@@ -138,7 +138,7 @@ function HeroSection() {
             style={{ transitionDelay: "2200ms" }}
           >
             <Button asChild size="lg">
-              <Link href="/events">
+              <Link href="/">
                 Register Now <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
@@ -169,7 +169,7 @@ function AboutSection() {
                     <div className="space-y-4">
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-accent">A Legacy of Innovation.</h2>
                         <p className="text-foreground/80 md:text-xl/relaxed">
-                            IGNITE 2026 is more than just a fest; it’s a movement. With over 10,000+ footfalls last year, we are back with bigger arenas, faster code, and smarter solutions. Whether you're a roboticist, a full-stack dev, or a research enthusiast, IGNITE provides the platform to turn your "What if?" into "It’s here."
+                          Spectrum 2026 is more than just a fest; it’s a movement. With over 10,000+ footfalls last year, we are back with bigger arenas, faster code, and smarter solutions. Whether you're a roboticist, a full-stack dev, or a research enthusiast, Spectrum provides the platform to turn your "What if?" into "It’s here."
                         </p>
                     </div>
                     <div className="relative aspect-video rounded-lg overflow-hidden group">
@@ -177,6 +177,7 @@ function AboutSection() {
                             ref={videoRef}
                             src={videoUrl}
                             poster="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            autoPlay
                             muted
                             loop
                             playsInline
@@ -184,14 +185,6 @@ function AboutSection() {
                             onPause={() => setIsPlaying(false)}
                             onPlay={() => setIsPlaying(true)}
                         />
-                        {!isPlaying && (
-                            <div 
-                                className="absolute inset-0 bg-black/40 flex items-center justify-center cursor-pointer"
-                                onClick={handlePlay}
-                            >
-                                <PlayCircle className="h-20 w-20 text-white/70 transform transition-transform duration-300 group-hover:scale-110" />
-                            </div>
-                        )}
                     </div>
                 </div>
             </div>
